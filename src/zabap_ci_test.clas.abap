@@ -31,6 +31,6 @@ CLASS ZABAP_CI_TEST IMPLEMENTATION.
 
 
   method REMIND.
-    rv_return = 0.
+    rv_return = 1.
   endmethod.
 ENDCLASS.
