@@ -2,4 +2,4 @@
 
 ### Hello World!
 
-For abap UT demo.
+This repository is a ABAP Unit Test demo.
