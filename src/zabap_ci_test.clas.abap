@@ -5,6 +5,12 @@ class ZABAP_CI_TEST definition
 
 public section.
 
+  methods REMIND
+    importing
+      !IV_DIVIDEND type I
+      !IV_DIVISOR type I
+    returning
+      value(RV_RETURN) type I .
   methods ADD_ONE
     importing
       !IV_NUM type I
@@ -21,5 +27,10 @@ CLASS ZABAP_CI_TEST IMPLEMENTATION.
 
   method ADD_ONE.
     rv_return  = iv_num + 1.
+  endmethod.
+
+
+  method REMIND.
+    rv_return = 0.
   endmethod.
 ENDCLASS.
